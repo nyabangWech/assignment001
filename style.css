@@ -1,0 +1,120 @@
+
+.navbar{
+    display:flex;
+    gap:10%;
+    background-color: azure;
+    border-radius: 50px;
+    border:solid 1px;
+    padding:10px;
+    margin:top;
+}
+.hero{
+    background-image: url(images/hilly.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    height:130vh;  
+    color:beige;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 0%;
+}.ditracted{
+    display:flex;
+    gap:20px;
+    text-align:center;
+    border-radius: 2px;
+    font-size: medium;
+}.cash{
+    display:flex;
+    gap:80px;
+
+}.route{
+    display:flex;
+    gap:80px;
+    text-align:center;
+    justify-content: center;
+}.features{
+    text-align: center;
+}.button{
+    border-radius:4px;
+}.client{
+    display:flex;
+    gap:20px;
+}.travel{
+    
+    float:right;
+}.container{
+    font-size: medium;
+    text-align: center;
+    color:black;
+
+}.button{
+    border-radius:20px;
+    padding:25px;
+    font-size: medium;
+    color:white;
+    background-color: darkorange;
+}.world{
+    text-align: center;
+}.top{
+    text-align: center;
+}#buttons{
+    border-radius:10px;
+    padding:12px;
+    font-size: medium;
+    gap:5%;
+}.scot{
+   border-color: blue;
+   border-radius: 4px; 
+}.italy{
+    border-color: orange;
+    border-radius: 4px;
+}.neder{
+    border-color: blue;
+    border-radius: 4px;
+}.eng{
+    border-color: blue;
+    border-radius: 4px;
+}.bang{
+    border-color: blue;
+    border-radius: 4px;
+
+}.cannor{
+    display:flex;
+    justify-content: center;
+    gap:2%;
+    margin-top:4px ;
+    border-radius: 12px;
+}.alina{
+    display:flex;
+    justify-content: center;
+    gap:25%;
+    border-radius: 12px;
+}.exploring{
+    background-image: url(images/pexels-pixabay-208701.jpg);
+    height:60vh;
+    color:white;
+}.month{
+    display:flex;
+    gap:10%;
+}.question{
+    border:solid 1px;
+    background-color: darkorange;
+    color:white;
+}.fill{
+    
+   color:black;
+   background-color:blanchedalmond;
+   position:relative;
+}.form{
+    display:flex;
+}.submit{
+    color:azure;
+    background-color: chocolate;
+    padding:20px;
+}.choose{
+    background-image: url();
+}.footer{
+    display:flex;
+    gap:5%;
+}
