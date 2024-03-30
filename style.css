@@ -5,19 +5,23 @@
     background-color: azure;
     border-radius: 50px;
     border:solid 1px;
-    padding:10px;
+    padding:14px;
     margin:top;
+    font-size: medium;
+    color:black;
 }
-.hero{
+.header{
     background-image: url(images/hilly.png) ;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
     height:130vh;  
-    color:beige;
+    color:white;
     font-size: 70px;
     text-align: center;
     margin-top: 0%;
+    padding-top: 60px;
+    
 }.ditracted{
     display:flex;
     gap:20px;
@@ -27,6 +31,8 @@
 }.cash{
     display:flex;
     gap:80px;
+    text-align: center;
+    justify-content: center;
 
 }.route{
     display:flex;
@@ -58,11 +64,15 @@
     text-align: center;
 }.top{
     text-align: center;
-}#buttons{
-    border-radius:10px;
-    padding:12px;
-    font-size: medium;
-    gap:5%;
+}.buttons{
+    border-radius:25%;
+    font-size: large;
+    gap:20%;
+    margin-left: 600px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    
 }.scot{
    border-color: blue;
    border-radius: 4px; 
@@ -91,9 +101,11 @@
     gap:25%;
     border-radius: 12px;
 }.exploring{
-    background-image: url(images/pexels-pixabay-208701.jpg);
+    background-image: url(images/pexels-katrin-bolovtsova-5036722.jpg);
     height:60vh;
     color:white;
+    font-size: larger;
+
 }.month{
     display:flex;
     gap:10%;
@@ -101,6 +113,7 @@
     border:solid 1px;
     background-color: darkorange;
     color:white;
+    margin-top:20px ;
 }.fill{
     
    color:black;
@@ -113,8 +126,101 @@
     background-color: chocolate;
     padding:20px;
 }.choose{
-    background-image: url();
+    background-image: url(images/pexels-asad-photo-maldives-9656532.jpg);
+    height:60vh;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10%;
+    color:antiquewhite;
+    font-size: x-large;
+    border-radius: 25px;
+    
 }.footer{
     display:flex;
     gap:5%;
+    padding:25px;
+    background-color: azure;
+}.icon{
+    display:flex;
+}.{
+    text-align:center;
+}.footer{
+    padding:15px;
+    border-radius: 4px;
+    
+}.subscribe{
+    font-size: larger;
+}.email{
+    border-radius: 25px;
+    border-color: darkorange;
+    padding:25px;
+}.home{
+    justify-content: space-around;
+    background-color: orange;
+    border-radius: 45px;
+    padding:15px;
+}.person1{
+    display:flex;
+    gap:2%;
+    text-align: center;
+}.person2{
+    display:flex;
+}.arrow1{
+    text-align: center;
+    justify-content: center;
 }
+@media  all and(min-width:500px) and(max-width:1024px){
+   
+    
+    .navbar{
+        display:flex;
+        gap:2%;
+        background-color: azure;
+        border-radius: 20px;
+        border:solid 1px;
+        padding:4px;
+        margin:top;
+        font-size: small;
+        color:black;
+    }
+    .header{
+        background-image: url(images/hilly.png) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Times New Roman', Times, serif;
+        height:30vh;  
+        color:white;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 0%;
+        padding-top: 30px;
+        
+    }.ditracted{
+        display:flex;
+        gap:10px;
+        text-align:center;
+        border-radius: 1px;
+        font-size: small;
+    }.cash{
+        display:flex;
+        gap:50px;
+        text-align: center;
+        justify-content: center;
+    
+    }.route{
+        display:flex;
+        gap:40px;
+        text-align:center;
+        justify-content: center;
+    }.features{
+        text-align: center;
+    }.button{
+        border-radius:2px;
+    }.client{
+        display:flex;
+
+
+
+}
+  
+}  
